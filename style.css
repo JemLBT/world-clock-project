@@ -1,3 +1,61 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px;
+  background-color: #fffeff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 10px;
+  margin-top: 80px;
+}
+body {
+  background-color: #f7f6fd;
+}
+
+select {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
 h1 {
-  color: red;
+  font-size: 46px;
+  font-family: sans-serif;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  margin: 10px 0;
+}
+
+.time {
+  font-size: 48px;
+  font-weight: 800;
+  padding: 10px;
+}
+
+.time small {
+  font-size: 24px;
+  vertical-align: middle;
+  line-height: 36px;
+}
+
+.date {
+  opacity: 0.5px;
+  display: flex;
+  margin-bottom: 10px;
+}
+.footer {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 200px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(36, 35, 35, 0.4);
 }
