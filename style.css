@@ -29,6 +29,15 @@ h1 {
   font-family: "Raleway", serif;
 }
 
+.home {
+  font-family: "Raleway", serif;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  display: block;
+}
+
 .city {
   display: flex;
   justify-content: space-between;
