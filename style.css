@@ -3,14 +3,16 @@
   margin: 0 auto;
   text-align: center;
   padding: 60px;
-  background-color: #fffeff;
+  background-color: rgba(255, 255, 255, 0.3);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   border-radius: 10px;
   margin-top: 80px;
+  color: #1b2659;
 }
 body {
-  background-color: #f7f6fd;
+  background: linear-gradient(#1d2b64, #f8cdda);
+  height: 1000px;
 }
 
 select {
@@ -22,22 +24,24 @@ select {
 }
 
 h1 {
-  font-size: 46px;
-  font-family: sans-serif;
+  font-size: 62px;
+  letter-spacing: 1px;
+  font-family: "Raleway", serif;
 }
 
 .city {
   display: flex;
   justify-content: space-between;
-  font-family: sans-serif;
+  font-family: "Raleway", serif;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
-  margin: 20px;
+  margin-top: 20px;
   text-align: left;
 }
 
 .time {
   font-size: 48px;
-  font-weight: 800;
+  font-weight: 600;
+  font-family: sans-serif;
   padding: 10px;
 }
 
@@ -57,6 +61,6 @@ h1 {
   font-size: 14px;
   font-weight: 200px;
   padding: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgba(36, 35, 35, 0.4);
+  font-family: "Raleway", serif;
+  color: #716991;
 }
